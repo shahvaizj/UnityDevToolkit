@@ -23,12 +23,12 @@ Lightweight, code-driven tweening without the overhead of a full-blown library. 
 - Callback hooks on start, update, and complete
 
 ### 📐 Gizmo Utilities
-Extended editor Gizmo helpers that make scene debugging and visualization faster and more expressive.
+Drop-on components and a static helper library for scene debugging and visualization. Shapes are filled by default with a wireframe toggle in the Inspector.
 
-- Labeled markers and arrows in Scene view
-- Custom shape drawers (arcs, sectors, cones, capsules)
-- Runtime Gizmo drawing (no `OnDrawGizmos` boilerplate)
-- Color-coded debug helpers for ranges, paths, and raycasts
+- Components for every common shape: box, sphere, circle, cone, capsule, arrow, path
+- Filled by default — toggle wireframe per component without touching code
+- Static shape library: wire circle, arc, sector, cone, capsule, cylinder, torus
+- Composite helpers: labeled spheres, range rings, grids, live raycasts, waypoint paths
 
 ### 📦 Scale Animations
 Simple, inspector-friendly scale animation components for punchy, responsive UI and world-space feedback.
@@ -91,10 +91,20 @@ transform.TweenPosition(targetPos, 0.5f, Ease.OutQuad)
 myPanel.GetComponent<ScaleAnimation>().Play();
 ```
 
-### Gizmo Helper
+### Gizmo Utilities
 ```csharp
-// Draw a labeled sphere in the scene view
-GizmoUtils.DrawLabeledSphere(transform.position, 2f, Color.cyan, "Detection Range");
+// Drop-on component — no code needed, configure in Inspector
+// Add BoxGizmo, SphereGizmo, ConeGizmo, etc. to any GameObject
+
+// Or use the static API from your own MonoBehaviour:
+using ShahvaizJ.GizmoUtils;
+
+private void OnDrawGizmosSelected()
+{
+    GizmoUtils.DrawLabeledSphere(transform.position, 5f, Color.yellow, "Detection");
+    GizmoShapes.DrawWireSector(transform.position, Vector3.up, transform.forward, 60f, 5f, Color.cyan);
+    GizmoArrow.Draw(transform.position, transform.forward, 2f, Color.blue);
+}
 ```
 
 ---
@@ -107,9 +117,11 @@ Assets/
     ├── Tweening/
     │   ├── Core/
     │   └── Easings/
-    ├── Gizmos/
-    │   ├── GizmoUtils.cs
-    │   └── RuntimeGizmos/
+    ├── GizmoUtils/
+    │   ├── Scripts/
+    │   │   ├── Core/          (GizmoShapes, GizmoArrow, GizmoUtils)
+    │   │   └── Components/    (BoxGizmo, SphereGizmo, ConeGizmo, …)
+    │   └── Scenes/
     ├── Animations/
     │   └── ScaleAnimation/
     └── UI/
