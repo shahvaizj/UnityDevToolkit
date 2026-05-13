@@ -58,7 +58,7 @@ Custom UI components that extend Unity's built-in UI toolkit with practical, gam
 In Unity: `Window → Package Manager → + → Add package from git URL`
 
 ```
-https://github.com/YOUR_USERNAME/unity-developer-toolkit.git
+https://github.com/shahvaizj/unity-developer-toolkit.git
 ```
 
 **Option 2 — Manual**
@@ -66,7 +66,7 @@ https://github.com/YOUR_USERNAME/unity-developer-toolkit.git
 Clone or download this repository and drop the contents into your project's `Assets/` folder.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/unity-developer-toolkit.git
+git clone https://github.com/shahvaizj/unity-developer-toolkit.git
 ```
 
 ### Requirements
