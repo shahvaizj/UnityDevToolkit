@@ -47,6 +47,14 @@ Custom UI components that extend Unity's built-in UI toolkit with practical, gam
 - Safe area panel (handles notches and device insets correctly)
 - Tooltip system with auto-positioning
 
+### Custom Log
+A lightweight conditional debug logger with colored console output. All calls are automatically stripped from non-development builds.
+
+- Plain, warning, and error logs wrapping Unity's `Debug` class
+- Colored variants: Blue, Red, Yellow, Green, Cyan, Orange
+- All calls stripped in release builds via `[Conditional]`
+- Optional context object to ping GameObjects from the console
+
 ---
 
 ## 🚀 Getting Started

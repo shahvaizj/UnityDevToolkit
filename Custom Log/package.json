@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.customlog",
+    "version": "1.0.0",
+    "displayName": "Custom Log",
+    "description": "A lightweight conditional debug logger with colored console output. All calls are automatically stripped from non-development builds.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/unity-custom-log#readme",
+    "changelogUrl": "https://github.com/shahvaizj/unity-custom-log/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/unity-custom-log/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["debug", "logging", "utilities"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}
