@@ -9,12 +9,18 @@ A lightweight conditional debug logger for Unity 6. All calls are stripped from 
 
 ## Installation
 
-Add via UPM git URL:
+**Option 1 — Unity Package Manager (Git URL)**
 ```
 https://github.com/shahvaizj/unity-custom-log.git
 ```
 
-Or drop the `Custom Log/` folder into your project's `Assets/` directory.
+**Option 2 — Unity Package**
+
+Download `Custom Log.unitypackage` from this repo and double-click to import.
+
+**Option 3 — Manual**
+
+Drop the `Custom Log/` folder into your project's `Assets/` directory.
 
 ## Usage
 
