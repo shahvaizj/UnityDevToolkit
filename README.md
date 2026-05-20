@@ -30,6 +30,14 @@ A lightweight conditional debug logger with colored console output. All calls ar
 - All calls stripped in release builds via `[Conditional]`
 - Optional context object to ping GameObjects from the console
 
+### ⏱ Timer Utility
+A drop-in timer component with countdown/count-up modes, audio hooks, and event callbacks. No coroutines needed.
+
+- Countdown and count-up display modes with loop and auto-start support
+- Interval tick sounds, looping background audio, and a last-warning audio trigger
+- Decoupled `TimerUI` with multiple time formats and warning color threshold
+- Full `UnityEvent` hooks: started, completed, stopped, paused, resumed
+
 ---
 
 ## 🚀 Getting Started
@@ -85,6 +93,19 @@ Log.Blue("spawned");
 Log.Green("health full");
 Log.Yellow("low ammo");
 Log.Red("took damage");
+```
+
+### Timer Utility
+```csharp
+using ShahvaizJ.TimerUtil;
+
+// Wire TimerController and TimerUI in the Inspector, then control via code:
+TimerController timer = GetComponent<TimerController>();
+timer.onTimerCompleted.AddListener(() => Debug.Log("Time's up!"));
+timer.StartTimer();
+
+// Read state any time
+float progress = timer.NormalizedProgress; // 0–1, useful for driving UI fills
 ```
 
 ---

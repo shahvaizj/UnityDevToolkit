@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.timerutil",
+    "version": "1.0.0",
+    "displayName": "Timer Utility",
+    "description": "A clean, code-driven timer with pause, resume, reset, and callbacks. No coroutines needed.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/TimerUtil#readme",
+    "changelogUrl": "https://github.com/shahvaizj/TimerUtil/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/TimerUtil/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["timer", "utility", "gameplay"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}
