@@ -31,12 +31,12 @@ A lightweight conditional debug logger with colored console output. All calls ar
 - Optional context object to ping GameObjects from the console
 
 ### ⏱ Timer Utility
-A drop-in timer component with countdown/count-up modes, audio hooks, and event callbacks. No coroutines needed.
+A drop-in timer component with countdown/count-up modes, audio hooks, and event callbacks. No coroutines — driven by `Update`.
 
-- Countdown and count-up display modes with loop and auto-start support
-- Interval tick sounds, looping background audio, and a last-warning audio trigger
-- Decoupled `TimerUI` with multiple time formats and warning color threshold
-- Full `UnityEvent` hooks: started, completed, stopped, paused, resumed
+- Countdown and count-up modes with loop and auto-start support
+- Audio hooks: one-shot (start/end/tick), looping background, last-warning trigger
+- Decoupled `TimerUI` with TMP support, multiple time formats, and warning color
+- Full `UnityEvent` callbacks: started, completed, stopped, paused, resumed
 
 ---
 
