@@ -1,0 +1,26 @@
+{
+    "name": "com.shahvaizj.advancedtoggle",
+    "version": "1.0.0",
+    "displayName": "Advanced Toggle",
+    "description": "A flexible MonoBehaviour toggle with optional usage limits, generic visual color feedback for UI and 3D, and rich UnityEvent hooks.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/advanced-toggle#readme",
+    "changelogUrl": "https://github.com/shahvaizj/advanced-toggle/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/advanced-toggle/blob/main/LICENSE",
+    "dependencies": {
+        "com.unity.ugui": "1.0.0"
+    },
+    "keywords": [
+        "toggle",
+        "button",
+        "events",
+        "ui",
+        "interaction"
+    ],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}

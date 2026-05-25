@@ -38,6 +38,14 @@ A drop-in timer component with countdown/count-up modes, audio hooks, and event 
 - Decoupled `TimerUI` with TMP support, multiple time formats, and warning color
 - Full `UnityEvent` callbacks: started, completed, stopped, paused, resumed
 
+### 🔘 Advanced Toggle
+A flexible, zero-dependency Unity toggle MonoBehaviour with optional usage limits, generic visual feedback, and rich UnityEvent callbacks.
+
+- Four toggle modes — unlimited, On-limited, Off-limited, or both limited independently
+- Generic visual feedback — targets any `Renderer` (3D / SpriteRenderer) or `Graphic` (UI Image, Text, etc.)
+- Rich events — `OnToggledOn`, `OnToggledOff`, `OnLimitReached`, `OffLimitReached`, `OnInteractionDisabled`
+- No external dependencies — only `UnityEngine` and `UnityEngine.UI`
+
 ---
 
 ## 🚀 Getting Started
