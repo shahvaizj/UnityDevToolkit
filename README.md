@@ -1,28 +1,28 @@
-﻿# ðŸ› ï¸ Unity Developer Toolkit
+﻿# Unity Developer Toolkit
 
-> A curated collection of reusable Unity tools, components, and utilities â€” built over years of real game development and open-sourced for the community.
+A curated collection of reusable Unity tools, components, and utilities — built over years of real game development and open-sourced for the community.
 
 ---
 
 ## What Is This?
 
-This repository is a growing library of production-ready Unity tools covering debugging, visualization, and common gameplay systems. Every tool here was born out of an actual need during development â€” nothing is included just to fill space.
+This repository is a growing library of production-ready Unity tools covering debugging, visualization, and common gameplay systems. Every tool here was born out of an actual need during development — nothing is included just to fill space.
 
 Whether you're a solo indie developer racing against time or a studio looking for solid, drop-in utilities, this toolkit is built to save you hours.
 
 ---
 
-## âœ¨ What's Included
+## What's Included
 
-### ðŸ“ Gizmo Utilities
+### Gizmo Utilities
 Drop-on components and a static helper library for scene debugging and visualization. Shapes are filled by default with a wireframe toggle in the Inspector.
 
 - Components for every common shape: box, sphere, circle, cone, capsule, arrow, path
-- Filled by default â€” toggle wireframe per component without touching code
+- Filled by default — toggle wireframe per component without touching code
 - Static shape library: wire circle, arc, sector, cone, capsule, cylinder, torus
 - Composite helpers: labeled spheres, range rings, grids, live raycasts, waypoint paths
 
-### ðŸªµ Custom Log
+### Custom Log
 A lightweight conditional debug logger with colored console output. All calls are automatically stripped from non-development builds.
 
 - Plain, warning, and error logs wrapping Unity's `Debug` class
@@ -30,21 +30,21 @@ A lightweight conditional debug logger with colored console output. All calls ar
 - All calls stripped in release builds via `[Conditional]`
 - Optional context object to ping GameObjects from the console
 
-### â± Timer Utility
-A drop-in timer component with countdown/count-up modes, audio hooks, and event callbacks. No coroutines â€” driven by `Update`.
+### Timer Utility
+A drop-in timer component with countdown/count-up modes, audio hooks, and event callbacks. No coroutines — driven by `Update`.
 
 - Countdown and count-up modes with loop and auto-start support
 - Audio hooks: one-shot (start/end/tick), looping background, last-warning trigger
 - Decoupled `TimerUI` with TMP support, multiple time formats, and warning color
 - Full `UnityEvent` callbacks: started, completed, stopped, paused, resumed
 
-### ðŸ”˜ Advanced Toggle
+### Advanced Toggle
 A flexible, zero-dependency Unity toggle MonoBehaviour with optional usage limits, generic visual feedback, and rich UnityEvent callbacks.
 
-- Four toggle modes â€” unlimited, On-limited, Off-limited, or both limited independently
-- Generic visual feedback â€” targets any `Renderer` (3D / SpriteRenderer) or `Graphic` (UI Image, Text, etc.)
-- Rich events â€” `OnToggledOn`, `OnToggledOff`, `OnLimitReached`, `OffLimitReached`, `OnInteractionDisabled`
-- No external dependencies â€” only `UnityEngine` and `UnityEngine.UI`
+- Four toggle modes — unlimited, On-limited, Off-limited, or both limited independently
+- Generic visual feedback — targets any `Renderer` (3D / SpriteRenderer) or `Graphic` (UI Image, Text, etc.)
+- Rich events — `OnToggledOn`, `OnToggledOff`, `OnLimitReached`, `OffLimitReached`, `OnInteractionDisabled`
+- No external dependencies — only `UnityEngine` and `UnityEngine.UI`
 
 ### HoldButton
 A press-and-hold interaction component for Unity UI with configurable duration and callbacks.
@@ -55,19 +55,19 @@ A press-and-hold interaction component for Unity UI with configurable duration a
 
 ---
 
-## ðŸš€ Getting Started
+## Getting Started
 
 ### Installation
 
-**Option 1 â€” Unity Package Manager (Git URL)**
+**Option 1 — Unity Package Manager (Git URL)**
 
-In Unity: `Window â†’ Package Manager â†’ + â†’ Add package from git URL`
+In Unity: `Window → Package Manager → + → Add package from git URL`
 
 ```
 https://github.com/shahvaizj/UnityDevToolkit.git
 ```
 
-**Option 2 â€” Manual**
+**Option 2 — Manual**
 
 Clone or download this repository and drop the tool folder(s) you need into your project's `Assets/` directory.
 
@@ -82,7 +82,7 @@ git clone https://github.com/shahvaizj/UnityDevToolkit.git
 
 ---
 
-## ðŸ“– Usage Examples
+## Usage Examples
 
 ### Gizmo Utilities
 ```csharp
@@ -120,22 +120,22 @@ timer.onTimerCompleted.AddListener(() => Debug.Log("Time's up!"));
 timer.StartTimer();
 
 // Read state any time
-float progress = timer.NormalizedProgress; // 0â€“1, useful for driving UI fills
+float progress = timer.NormalizedProgress; // 0–1, useful for driving UI fills
 ```
 
 ---
 
-## ðŸ“œ License
+## License
 
-This project is licensed under the **MIT License** â€” free to use in personal and commercial projects. See [LICENSE](LICENSE) for full terms.
+This project is licensed under the **MIT License** — free to use in personal and commercial projects. See [LICENSE](LICENSE) for full terms.
 
 ---
 
-## ðŸ‘¤ Author
+## Author
 
-Made by **Shahvaiz** â€” indie game developer, currently building [*You May Never Leave*](https://shahvaizj.itch.io/you-may-never-leave), a paranormal sci-fi horror puzzle game.
+Made by **Shahvaiz** — indie game developer, currently building [*You May Never Leave*](https://shahvaizj.itch.io/you-may-never-leave), a paranormal sci-fi horror puzzle game.
 
-If this toolkit saves you time, a â­ on the repo goes a long way.
+If this toolkit saves you time, a star on the repo goes a long way.
 
 ---
 
