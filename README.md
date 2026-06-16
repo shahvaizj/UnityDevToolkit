@@ -53,6 +53,13 @@ A press-and-hold interaction component for Unity UI with configurable duration a
 - `OnHoldComplete`, `OnHoldCancel`, `OnHoldProgress` UnityEvents
 - Cancel on release before threshold
 
+### CameraShake
+A trauma-based camera shake component for Unity using Perlin noise, triggered with a single line of code.
+- Trauma accumulation model — impacts add trauma, which decays smoothly over time
+- Shake amplitude scales with trauma² (configurable exponent) so big hits punch and small ones stay subtle
+- Separate translation and rotation amplitudes, set per axis
+- Perlin-noise driven for smooth, organic motion (no harsh jitter)
+
 ---
 
 ## Getting Started
