@@ -60,6 +60,13 @@ A trauma-based camera shake component for Unity using Perlin noise, triggered wi
 - Separate translation and rotation amplitudes, set per axis
 - Perlin-noise driven for smooth, organic motion (no harsh jitter)
 
+### MultiSelect
+A UI option selector with left/right arrow buttons that cycles through a list of string values.
+- Left / right arrow buttons cycle through a serialized `string[]` of options
+- Populates the label from the options on `Awake`
+- `CurSelected` (index) and `Value` (text) exposed for reads
+- Optional wrap-around — arrows auto-disable at the ends when wrapping is off
+
 ---
 
 ## Getting Started

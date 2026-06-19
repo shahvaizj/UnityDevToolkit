@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.multiselect",
+    "version": "1.0.0",
+    "displayName": "MultiSelect",
+    "description": "A UI option selector with left/right arrow buttons that cycles through a list of string values.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/multiselect#readme",
+    "changelogUrl": "https://github.com/shahvaizj/multiselect/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/multiselect/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["UI", "selector", "dropdown", "arrows", "stepper"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}
