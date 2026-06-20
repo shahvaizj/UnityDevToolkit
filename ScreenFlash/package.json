@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.screenflash",
+    "version": "1.0.0",
+    "displayName": "ScreenFlash",
+    "description": "A full-screen color flash overlay for hits, pickups, and transitions — driven by an AnimationCurve for complete control over the flash shape.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/screenflash#readme",
+    "changelogUrl": "https://github.com/shahvaizj/screenflash/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/screenflash/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["flash", "screen", "overlay", "hit", "juice"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}

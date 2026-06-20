@@ -67,6 +67,13 @@ A UI option selector with left/right arrow buttons that cycles through a list of
 - `CurSelected` (index) and `Value` (text) exposed for reads
 - Optional wrap-around — arrows auto-disable at the ends when wrapping is off
 
+### ScreenFlash
+A full-screen color flash overlay for hits, pickups, and transitions — driven by an AnimationCurve for complete control over the flash shape.
+- One-line trigger via a static `Instance` — call `ScreenFlash.Instance.Flash()` from anywhere
+- AnimationCurve-driven alpha envelope for sharp pops, slow fades, or any custom shape
+- Configurable overlap modes: Restart, Ignore, or Enqueue when flashes overlap
+- Scaled or unscaled time — keep flashing while the game is paused
+
 ---
 
 ## Getting Started
