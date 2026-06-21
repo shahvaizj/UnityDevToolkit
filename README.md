@@ -74,6 +74,13 @@ A full-screen color flash overlay for hits, pickups, and transitions — driven 
 - Configurable overlap modes: Restart, Ignore, or Enqueue when flashes overlap
 - Scaled or unscaled time — keep flashing while the game is paused
 
+### SmoothNumText
+Smoothly animated number counter for score, coins, and currency displays using TextMeshPro.
+- Smooth interpolation from current value to target — no coroutines, driven by `Update`
+- AnimationCurve-driven easing for snappy ease-out, linear counting, or any custom shape
+- Configurable prefix and suffix strings (e.g. "$", " coins", "Score: ")
+- Whole-number or decimal display with optional thousands separators (1,000,000)
+
 ---
 
 ## Getting Started

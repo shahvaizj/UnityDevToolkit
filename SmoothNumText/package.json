@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.smoothnumtext",
+    "version": "1.0.0",
+    "displayName": "SmoothNumText",
+    "description": "Smoothly animated number counter for score, coins, and currency displays using TextMeshPro.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/smoothnumtext#readme",
+    "changelogUrl": "https://github.com/shahvaizj/smoothnumtext/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/smoothnumtext/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["text", "counter", "score", "animated", "tween"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}
