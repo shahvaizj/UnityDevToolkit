@@ -81,6 +81,14 @@ Smoothly animated number counter for score, coins, and currency displays using T
 - Configurable prefix and suffix strings (e.g. "$", " coins", "Score: ")
 - Whole-number or decimal display with optional thousands separators (1,000,000)
 
+### SingletonBase
+A generic MonoBehaviour singleton base class with automatic instance management, scene persistence, and duplicate handling.
+- Generic `Singleton<T>` base class — one line to make any MonoBehaviour a singleton
+- Optional `DontDestroyOnLoad` persistence across scene loads
+- Configurable duplicate handling: destroy newest or destroy oldest
+- Application-quit safety to prevent stale references during shutdown
+- Virtual hooks (`OnInitialized`, `OnBeforeDestroyed`) for clean subclass lifecycle
+
 ---
 
 ## Getting Started
