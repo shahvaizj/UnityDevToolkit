@@ -89,6 +89,15 @@ A generic MonoBehaviour singleton base class with automatic instance management,
 - Application-quit safety to prevent stale references during shutdown
 - Virtual hooks (`OnInitialized`, `OnBeforeDestroyed`) for clean subclass lifecycle
 
+### NotificationToast
+Queue-based toast notification system with severity levels, slide animations, and per-severity styling.
+- Four severity levels — Info, Success, Warning, Error — each with configurable background color, text color, and icon
+- Smooth slide-in/slide-out animation from any direction (top, bottom, left, right) with cubic easing
+- Automatic queue management — notifications display one at a time; extras queue up in order
+- Configurable timing — independent fade-in, display, and fade-out durations
+- Unscaled time support — toasts animate while the game is paused
+- `OnToastShown` and `OnToastDismissed` UnityEvents for wiring gameplay responses
+
 ---
 
 ## Getting Started
