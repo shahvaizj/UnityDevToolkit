@@ -98,6 +98,13 @@ Queue-based toast notification system with severity levels, slide animations, an
 - Unscaled time support — toasts animate while the game is paused
 - `OnToastShown` and `OnToastDismissed` UnityEvents for wiring gameplay responses
 
+### Health System
+A flexible health component with damage, healing, death events, and configurable invincibility frames.
+- Damage and healing with clamped values — health never drops below zero or exceeds max
+- Automatic invincibility frames (i-frames) after taking damage with configurable duration
+- Kill, Revive, and ResetHealth methods for full lifecycle control
+- Manual invincibility toggle with timed or permanent modes
+
 ---
 
 ## Getting Started

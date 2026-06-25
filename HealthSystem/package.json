@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.healthsystem",
+    "version": "1.0.0",
+    "displayName": "Health System",
+    "description": "A flexible health component with damage, healing, death events, and configurable invincibility frames.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/healthsystem#readme",
+    "changelogUrl": "https://github.com/shahvaizj/healthsystem/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/healthsystem/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["health", "damage", "healing", "invincibility", "gameplay"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}
