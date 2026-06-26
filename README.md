@@ -105,6 +105,14 @@ A flexible health component with damage, healing, death events, and configurable
 - Kill, Revive, and ResetHealth methods for full lifecycle control
 - Manual invincibility toggle with timed or permanent modes
 
+### Object Pooler
+A keyed object pool manager with pre-warm, auto-grow, max-size limits, and IPoolable reset callbacks.
+- Multiple named pools managed from a single component — one key per prefab type
+- Pre-warm configurable instance counts at startup to avoid runtime allocation spikes
+- Auto-grow creates new instances on demand when the pool is empty (optional, per pool)
+- Max size cap prevents unbounded memory growth
+- `IPoolable` interface with `OnSpawnFromPool` / `OnReturnToPool` callbacks for clean state reset
+
 ---
 
 ## Getting Started

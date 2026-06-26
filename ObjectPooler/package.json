@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.objectpooler",
+    "version": "1.0.0",
+    "displayName": "Object Pooler",
+    "description": "A keyed object pool manager with pre-warm, auto-grow, max-size limits, and IPoolable reset callbacks.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/objectpooler#readme",
+    "changelogUrl": "https://github.com/shahvaizj/objectpooler/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/objectpooler/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["pool", "object-pool", "spawn", "recycle", "performance"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}
