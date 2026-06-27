@@ -113,6 +113,17 @@ A keyed object pool manager with pre-warm, auto-grow, max-size limits, and IPool
 - Max size cap prevents unbounded memory growth
 - `IPoolable` interface with `OnSpawnFromPool` / `OnReturnToPool` callbacks for clean state reset
 
+### Tooltip System
+Hover and long-press tooltips with smart screen-edge repositioning for Unity UI.
+- Automatic screen-edge clamping — tooltip pivots and repositions to stay fully visible
+- Configurable hover delay before the tooltip appears
+- Long-press support for touch devices with movement tolerance
+- Smooth fade-in/fade-out transitions with configurable durations
+- Unscaled time support — tooltips work while the game is paused
+- Pointer-following mode — tooltip tracks the cursor in real-time
+- Drop-in `TooltipTrigger` component for per-element hover text
+- `OnTooltipShown` and `OnTooltipHidden` UnityEvents
+
 ---
 
 ## Getting Started
