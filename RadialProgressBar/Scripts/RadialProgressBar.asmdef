@@ -1,0 +1,16 @@
+{
+    "name": "RadialProgressBar",
+    "rootNamespace": "ShahvaizJ.RadialProgressBar",
+    "references": [
+        "Unity.ugui"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

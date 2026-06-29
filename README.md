@@ -124,6 +124,14 @@ Hover and long-press tooltips with smart screen-edge repositioning for Unity UI.
 - Drop-in `TooltipTrigger` component for per-element hover text
 - `OnTooltipShown` and `OnTooltipHidden` UnityEvents
 
+### Radial Progress Bar
+A radial progress bar component with 0–1 fill API, color gradient, and smooth transitions.
+- Image fill-amount driven radial gauge with simple 0–1 API
+- Gradient color that shifts automatically as progress changes
+- Optional smooth animated transitions with configurable speed
+- Configurable fill method, origin, and direction (clockwise / counter-clockwise)
+- `OnProgressChanged`, `OnFillComplete`, and `OnFillReset` UnityEvents
+
 ---
 
 ## Getting Started
