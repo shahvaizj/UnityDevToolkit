@@ -132,6 +132,15 @@ A radial progress bar component with 0–1 fill API, color gradient, and smooth 
 - Configurable fill method, origin, and direction (clockwise / counter-clockwise)
 - `OnProgressChanged`, `OnFillComplete`, and `OnFillReset` UnityEvents
 
+### Cooldown Button
+An ability-style UI button with a radial cooldown sweep overlay and an `OnReady` event when the cooldown expires.
+- Radial fill overlay drains over the configured cooldown duration after each button click
+- Optional TMP label displaying remaining seconds during cooldown
+- `OnClick`, `OnCooldownStart`, `OnReady`, and `OnCooldownProgress` UnityEvents
+- Auto-disable button during cooldown (optional, toggleable)
+- Scaled or unscaled time — cooldown ticks while the game is paused when unscaled
+- `StartCooldown()` and `ResetCooldown()` API for script-driven control
+
 ---
 
 ## Getting Started
