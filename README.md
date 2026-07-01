@@ -141,6 +141,15 @@ An ability-style UI button with a radial cooldown sweep overlay and an `OnReady`
 - Scaled or unscaled time — cooldown ticks while the game is paused when unscaled
 - `StartCooldown()` and `ResetCooldown()` API for script-driven control
 
+### Screen Fader
+A full-screen fade-to-color overlay for cutscenes, scene transitions, and death sequences, with async-friendly callbacks and unscaled time support.
+- `FadeOut` / `FadeIn` transitions with optional `Action` callback — drop-in to any coroutine or async pipeline
+- `FadeOutHoldIn` convenience method: fade out, hold the black screen, then fade back in
+- AnimationCurve-driven easing for custom fade shapes (ease-in, ease-out, linear, or any custom shape)
+- Configurable fade color — black, white, or any `Color`
+- Unscaled time support — fades animate even while `Time.timeScale = 0`
+- `SnapOpaque` / `SnapTransparent` for instant no-animation transitions
+
 ---
 
 ## Getting Started
