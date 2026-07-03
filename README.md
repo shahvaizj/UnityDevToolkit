@@ -150,6 +150,13 @@ A full-screen fade-to-color overlay for cutscenes, scene transitions, and death 
 - Unscaled time support — fades animate even while `Time.timeScale = 0`
 - `SnapOpaque` / `SnapTransparent` for instant no-animation transitions
 
+### Pause Manager
+A global pause toggle that drives `Time.timeScale` with `OnPause`/`OnResume` UnityEvents and an optional pause key.
+- Single persistent instance accessible from anywhere via `PauseManager.Instance`
+- Pauses by zeroing `Time.timeScale` and restores the exact previous value on resume (slow-motion safe)
+- `OnPause` and `OnResume` UnityEvents for wiring UI, audio, or gameplay systems in the Inspector
+- Optional built-in pause key (defaults to Escape) — no extra input wiring needed
+
 ---
 
 ## Getting Started
