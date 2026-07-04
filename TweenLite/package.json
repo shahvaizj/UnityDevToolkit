@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.tweenlite",
+    "version": "1.0.0",
+    "displayName": "Tween Lite",
+    "description": "A tiny code-driven tween helper for move/scale/rotate/fade/color with easing, loops, and delays — no external dependency required.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/tweenlite#readme",
+    "changelogUrl": "https://github.com/shahvaizj/tweenlite/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/tweenlite/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["tween", "animation", "easing", "interpolation", "juice"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}

@@ -157,6 +157,13 @@ A global pause toggle that drives `Time.timeScale` with `OnPause`/`OnResume` Uni
 - `OnPause` and `OnResume` UnityEvents for wiring UI, audio, or gameplay systems in the Inspector
 - Optional built-in pause key (defaults to Escape) — no extra input wiring needed
 
+### Tween Lite
+A tiny code-driven tween helper for move/scale/rotate/fade/color with easing, loops, and delays — no external dependency required.
+- One static entry point, `TweenLite`, plus `TweenMove` / `TweenScale` / `TweenRotate` / `TweenFade` / `TweenColor` extension methods
+- 13 built-in easing curves (sine, quad, cubic, back) via the `Ease` enum
+- Fluent configuration — chain `SetEase`, `SetDelay`, `SetLoops`, `SetUnscaledTime`, `OnComplete`, `OnKill` off the returned `Tween`
+- Loop support with `Restart` or `PingPong` behaviour, including infinite loops
+
 ---
 
 ## Getting Started
