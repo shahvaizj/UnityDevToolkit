@@ -164,6 +164,13 @@ A tiny code-driven tween helper for move/scale/rotate/fade/color with easing, lo
 - Fluent configuration — chain `SetEase`, `SetDelay`, `SetLoops`, `SetUnscaledTime`, `OnComplete`, `OnKill` off the returned `Tween`
 - Loop support with `Restart` or `PingPong` behaviour, including infinite loops
 
+### Damage Number Popup
+Pooled floating world-space damage/heal numbers with critical-hit styling and arc motion.
+- Pooled spawning via `DamageNumberSpawner` — pre-warms instances on `Awake`, recycles them on completion, no per-hit allocation
+- Upward arc motion with configurable initial speed, sideways spread, and gravity
+- Automatic fade-out over the back half of each popup's lifetime
+- Distinct color, scale multiplier, and suffix for critical hits (e.g. bigger, orange, `"!"`)
+
 ---
 
 ## Getting Started

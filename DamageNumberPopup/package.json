@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.damagenumberpopup",
+    "version": "1.0.0",
+    "displayName": "Damage Number Popup",
+    "description": "Pooled floating world-space damage/heal numbers with critical-hit styling and arc motion.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/damagenumberpopup#readme",
+    "changelogUrl": "https://github.com/shahvaizj/damagenumberpopup/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/damagenumberpopup/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["damage numbers", "combat text", "floating text", "TextMeshPro", "pooling"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}
