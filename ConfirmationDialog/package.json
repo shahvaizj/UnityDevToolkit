@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.confirmationdialog",
+    "version": "1.0.0",
+    "displayName": "Confirmation Dialog",
+    "description": "A reusable modal yes/no confirmation popup that dispatches its result to a callback and to UnityEvents.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/UnityDevToolkit#readme",
+    "changelogUrl": "https://github.com/shahvaizj/UnityDevToolkit/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/UnityDevToolkit/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["UI", "dialog", "modal", "confirmation", "popup"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}

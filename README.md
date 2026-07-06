@@ -171,6 +171,13 @@ Pooled floating world-space damage/heal numbers with critical-hit styling and ar
 - Automatic fade-out over the back half of each popup's lifetime
 - Distinct color, scale multiplier, and suffix for critical hits (e.g. bigger, orange, `"!"`)
 
+### Confirmation Dialog
+A reusable modal yes/no confirmation popup that dispatches its result to a callback and to UnityEvents.
+- Single `Show(...)` call opens the dialog with a title, message, and result callback
+- `Action<bool>` callback fires `true` on confirm, `false` on cancel — no polling required
+- `OnOpened`, `OnClosed`, `OnConfirmed`, `OnCancelled` UnityEvents for Inspector-driven wiring
+- Per-call override of confirm/cancel button labels (e.g. "Delete" / "Keep")
+
 ---
 
 ## Getting Started
