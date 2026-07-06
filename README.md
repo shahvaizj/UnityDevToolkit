@@ -178,6 +178,13 @@ A reusable modal yes/no confirmation popup that dispatches its result to a callb
 - `OnOpened`, `OnClosed`, `OnConfirmed`, `OnCancelled` UnityEvents for Inspector-driven wiring
 - Per-call override of confirm/cancel button labels (e.g. "Delete" / "Keep")
 
+### Camera Follow 2D
+A smooth-damped 2D camera follow component with a configurable deadzone and optional world-bounds clamping.
+- `Vector3.SmoothDamp`-driven follow with configurable smooth time and max speed — no jitter, no snapping
+- Deadzone rectangle — the target can move freely near the camera center before it starts following
+- Optional world-bounds clamping that accounts for the camera's orthographic viewport size so edges never show past the level
+- `SetTarget`, `SetBounds`, and `SnapToTarget` API for runtime target swaps, teleports, and respawns
+
 ---
 
 ## Getting Started
