@@ -192,6 +192,13 @@ A multi-layer 2D parallax background system driven by camera movement, with opti
 - Optional seamless infinite horizontal/vertical scrolling for tiled sprites, so layers never run out
 - Auto-detects `Camera.main` if no camera is assigned
 
+### Wave Spawner
+Timed/wave-based enemy spawner with per-wave counts, intervals, spawn-rate curves, and looping.
+- Ordered list of waves, each with its own prefab pool, unit count, and spawn interval
+- Per-wave `AnimationCurve` scales the spawn interval across wave progress — ramp spawns up or down over time
+- Sequential or random spawn point selection across any number of `Transform` points
+- Optional looping back to the first wave after the last one completes
+
 ---
 
 ## Getting Started
