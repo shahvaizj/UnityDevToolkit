@@ -185,6 +185,13 @@ A smooth-damped 2D camera follow component with a configurable deadzone and opti
 - Optional world-bounds clamping that accounts for the camera's orthographic viewport size so edges never show past the level
 - `SetTarget`, `SetBounds`, and `SnapToTarget` API for runtime target swaps, teleports, and respawns
 
+### Parallax Background
+A multi-layer 2D parallax background system driven by camera movement, with optional seamless infinite scrolling per layer.
+- `ParallaxLayer` component — attach one per background layer (sky, mountains, foreground) with its own independent parallax factor
+- Per-axis parallax factor — control horizontal and vertical drift separately for each layer
+- Optional seamless infinite horizontal/vertical scrolling for tiled sprites, so layers never run out
+- Auto-detects `Camera.main` if no camera is assigned
+
 ---
 
 ## Getting Started
