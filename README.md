@@ -199,6 +199,13 @@ Timed/wave-based enemy spawner with per-wave counts, intervals, spawn-rate curve
 - Sequential or random spawn point selection across any number of `Transform` points
 - Optional looping back to the first wave after the last one completes
 
+### Settings Menu Kit
+A drop-in options menu component that binds volume, quality, resolution, and fullscreen controls to Unity's engine settings and persists them with PlayerPrefs.
+- Populates quality and resolution dropdowns automatically from `QualitySettings.names` and `Screen.resolutions`
+- Binds a volume slider, quality dropdown, resolution dropdown, and fullscreen toggle in one component
+- `ApplyAndSave()` / `LoadSavedSettings()` / `ResetToDefaults()` API for Confirm/Cancel/Reset buttons
+- Loads and applies saved settings automatically on `Awake` (optional)
+
 ---
 
 ## Getting Started

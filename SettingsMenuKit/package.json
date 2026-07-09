@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.settingsmenukit",
+    "version": "1.0.0",
+    "displayName": "Settings Menu Kit",
+    "description": "A drop-in options menu component that binds volume, quality, resolution, and fullscreen controls to Unity's engine settings and persists them with PlayerPrefs.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/UnityDevToolkit#readme",
+    "changelogUrl": "https://github.com/shahvaizj/UnityDevToolkit/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/UnityDevToolkit/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["UI", "settings", "options menu", "PlayerPrefs", "graphics settings"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}
