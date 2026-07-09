@@ -206,6 +206,13 @@ A drop-in options menu component that binds volume, quality, resolution, and ful
 - `ApplyAndSave()` / `LoadSavedSettings()` / `ResetToDefaults()` API for Confirm/Cancel/Reset buttons
 - Loads and applies saved settings automatically on `Awake` (optional)
 
+### Volume Mixer Binder
+Binds a UI slider to an AudioMixer exposed volume parameter, handling the linear-to-decibel conversion and persisting the chosen value with PlayerPrefs.
+- Converts a linear 0-1 slider value to decibels for `AudioMixer.SetFloat`, with a configurable silence floor
+- One component per exposed parameter — add one for Master, one for Music, one for SFX, etc.
+- `ApplyAndSave()` / `LoadSavedVolume()` / `ResetToDefault()` API backed by `PlayerPrefs`
+- Optional auto-save on every slider change, or explicit save via an Apply button
+
 ---
 
 ## Getting Started
