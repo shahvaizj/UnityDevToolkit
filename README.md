@@ -213,6 +213,13 @@ Binds a UI slider to an AudioMixer exposed volume parameter, handling the linear
 - `ApplyAndSave()` / `LoadSavedVolume()` / `ResetToDefault()` API backed by `PlayerPrefs`
 - Optional auto-save on every slider change, or explicit save via an Apply button
 
+### Input Rebind UI
+Runtime control rebinding UI for Unity's Input System, with automatic save and load of player-chosen bindings.
+- Interactive rebinding for any action/binding on Unity's new Input System
+- Works with simple bindings and composite parts (e.g. WASD up/down/left/right)
+- Excludes noisy controls (mouse movement) and supports a configurable cancel control
+- Per-row `OnRebindStarted` / `OnRebindComplete` / `OnRebindCanceled` UnityEvents for "press any key" prompts
+
 ---
 
 ## Getting Started
