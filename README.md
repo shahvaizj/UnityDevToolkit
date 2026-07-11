@@ -220,6 +220,13 @@ Runtime control rebinding UI for Unity's Input System, with automatic save and l
 - Excludes noisy controls (mouse movement) and supports a configurable cancel control
 - Per-row `OnRebindStarted` / `OnRebindComplete` / `OnRebindCanceled` UnityEvents for "press any key" prompts
 
+### Scriptable Variables
+ScriptableObject-based Float, Int, Bool, and String variables with change events for decoupling systems without singletons.
+- `FloatVariable`, `IntVariable`, `BoolVariable`, and `StringVariable` assets — create them from the `Assets/Create/ShahvaizJ/Scriptable Variables` menu
+- Any script or component reads/writes the same shared value by referencing the asset directly — no singleton, no manual event wiring
+- `OnValueChanged` UnityEvent per type, wireable in the Inspector, only fires when the value actually changes
+- Runtime value automatically resets to the serialized Initial Value on Play Mode start (toggle via **Reset On Play**), so edits from a previous play session never leak into the next
+
 ---
 
 ## Getting Started

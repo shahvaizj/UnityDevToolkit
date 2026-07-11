@@ -1,0 +1,14 @@
+{
+    "name": "ScriptableVariables",
+    "rootNamespace": "ShahvaizJ.ScriptableVariables",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
