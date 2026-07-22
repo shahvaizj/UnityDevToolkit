@@ -1,0 +1,18 @@
+{
+    "name": "com.shahvaizj.orbitshowcasecamera",
+    "version": "1.0.0",
+    "displayName": "Orbit Showcase Camera",
+    "description": "An orbiting showcase camera for select-screens with idle auto-rotate, drag-to-orbit, and scroll/pinch zoom.",
+    "unity": "6000.0",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/shahvaizj/orbitshowcasecamera#readme",
+    "changelogUrl": "https://github.com/shahvaizj/orbitshowcasecamera/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/shahvaizj/orbitshowcasecamera/blob/main/LICENSE",
+    "dependencies": {},
+    "keywords": ["camera", "orbit", "showcase", "select-screen", "preview"],
+    "author": {
+        "name": "Shahvaiz Jahangeer",
+        "email": "shahvaiz.jahangeer@gmail.com",
+        "url": "https://github.com/shahvaizj"
+    }
+}

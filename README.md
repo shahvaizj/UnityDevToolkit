@@ -227,6 +227,13 @@ ScriptableObject-based Float, Int, Bool, and String variables with change events
 - `OnValueChanged` UnityEvent per type, wireable in the Inspector, only fires when the value actually changes
 - Runtime value automatically resets to the serialized Initial Value on Play Mode start (toggle via **Reset On Play**), so edits from a previous play session never leak into the next
 
+### Orbit Showcase Camera
+An orbiting showcase camera for select-screens with idle auto-rotate, drag-to-orbit, and scroll/pinch zoom.
+- Auto-rotates around the target when idle, resuming after a configurable delay following player input
+- Drag to orbit with mouse or single-finger touch — pitch is clamped to a configurable range
+- Scroll-wheel zoom on desktop and pinch-to-zoom on mobile, both clamped to a min/max distance
+- Smoothly damped yaw, pitch, and distance — no snapping when auto-rotate hands off to manual drag
+
 ---
 
 ## Getting Started
