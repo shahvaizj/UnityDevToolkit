@@ -234,6 +234,13 @@ An orbiting showcase camera for select-screens with idle auto-rotate, drag-to-or
 - Scroll-wheel zoom on desktop and pinch-to-zoom on mobile, both clamped to a min/max distance
 - Smoothly damped yaw, pitch, and distance — no snapping when auto-rotate hands off to manual drag
 
+### Input Buffer
+Fighting-game style input buffering for Unity's Input System — queries whether an action was pressed within the last N seconds for responsive combos.
+- Buffers presses for any `InputAction` so a query made a few frames later still sees them
+- Per-action buffer window overrides, with a shared default (seconds, not fixed frame counts)
+- `WasPressed` (peek) and `TryConsume` (peek + clear) query styles for polling gameplay code
+- `OnBufferedInputConsumed` UnityEvent for hooking VFX/SFX to a buffered input firing
+
 ---
 
 ## Getting Started
